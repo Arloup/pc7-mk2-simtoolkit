@@ -1,6 +1,6 @@
 # pc7-mk2-simtoolkit
 From simulation to sky: building and flying a reduced PC-7 MkII.
-# 🛩️ PC-7 MkII – Reduced Model & Aerodynamic Optimization
+# 🛩️ PC-7 MkII – Reduced Model & Aerodynamic Analysis
 
 **Reduced-scale PC-7 MkII: from CFD simulations to 3D-printed flight.**
 
@@ -8,58 +8,77 @@ From simulation to sky: building and flying a reduced PC-7 MkII.
 ![3D Modeling](https://img.shields.io/badge/3D-Modeling-blue)
 ![CFD](https://img.shields.io/badge/CFD-Simulation-orange)
 
+## 📖 Project Overview
 
-## 📖 Overview
+This repository presents the entire process of modeling and building a reduced **Pilatus PC-7 MkII**, focusing on aerodynamic principle analysis and digital-to-physical realization.  
+Central themes include rigorous **3D modeling, analytical and empirical simulation**, and the practical construction of a **3D-printed radio-controlled aircraft**.[1]
 
-This repository documents the aerodynamic modeling and reduced-scale construction of the **Pilatus PC-7 MkII**, a Swiss turboprop trainer aircraft.  
-The project combines **3D modeling, numerical simulation, and empirical optimization** to design and build a functional **3D-printed flying model**.
+### Highlights
+- **Aerodynamic geometry construction** with OpenVSP and Fusion 360, including manual profile extraction and parametric design.[1]
+- **Automated CFD workflow** for exploring lift, drag, and moment behavior across 18 model and flight scenarios.[1]
+- **Python-powered pipeline**: scripting simulation batches, extracting results, and generating comparative analysis automatically.[1]
+- **Functional assembly**: print-optimized design accounting for both structure and electronics, tested in real conditions.[1]
+- **Open-source sharing**: CAD models, simulation scripts, datasets, and build documentation provided for community contribution.[1]
 
-Key elements include:
-- ✈️ **3D aerodynamic modeling** with *OpenVSP* and *Fusion 360*.  
-- 🔬 **Automated CFD simulations** for lift, drag, and moment analysis.  
-- 🐍 **Python scripting** for simulation automation and data processing.  
-- 🛠️ **3D printing & assembly** of a functional reduced-scale aircraft.  
-- 🌍 **Open-source contribution** of all models, scripts, results, and construction plans.
+## 🚀 Main Features
 
-## 🚀 Features
-
-- Aerodynamic study of lift, drag, and moment coefficients (CL, CD, CM).  
-- Exploration of Reynolds number effects on reduced-scale aircraft.  
-- Automated pipeline for running CFD simulations with Python.  
-- 3D-printable model adapted for radio-controlled flight.  
-- Documentation of challenges, methods, and results.  
+- In-depth evaluation of aerodynamic coefficients ($$C_L$$, $$C_D$$, $$C_M$$) for various configurations.[1]
+- Analysis of Reynolds number and scale model effects (dynamic similarity and practical limitations).[1]
+- Fully automated CFD case management with Python and vsppytools (batching, extraction, plotting).[1]
+- 3D printing plans tailored for practical RC model flight and mechanical customization.[1]
+- Clear walk-through of methods, technical difficulties, and empirical findings.[1]
 
 ## 📂 Repository Structure
-📦 pc7-mk2-sim-opt
-┣ 📁 src/ # Python scripts for simulations & data analysis
-┣ 📁 models/ # 3D CAD files (OpenVSP, Fusion 360, STL/STEP)
-┣ 📁 simulations/ # CFD results and processed data
-┣ 📁 docs/ # Diagrams, methodology notes, and references
-┣ 📁 construction/ # 3D printing plans and assembly guides
+
+```plaintext
+📦 pc7-mk2-simtoolkit
+┣ 📁 src/          # Simulation and analysis scripts (Python)
+┣ 📁 models/       # CAD files (OpenVSP, Fusion360, STL/STEP)
+┣ 📁 simulations/  # Raw results and post-processed datasets
+┣ 📁 docs/         # Diagrams, methodology, references
+┣ 📁 construction/ # 3D print plans and assembly guides
 ┗ README.md
+```
 
+## 🖥️ Software & Methods
 
-## 🖥️ Tools & Technologies
+- **OpenVSP**: Parametric airframe modeling, aerodynamic analysis, and mesh generation (VSPAERO).[1]
+- **Fusion 360**: Surfacic and parametric CAD for print-ready models and compartment design.[1]
+- **Python:** (NumPy, Matplotlib, Pandas, vsppytools) Automation of case setup, script-enabled result handling, batch post-processing.[1]
+- **3D Printing:** FDM, PLA/LW-PLA, customized for minimal support and strong, lightweight assembly.[1]
 
-- **OpenVSP** → Parametric aircraft modeling and aerodynamic analysis  
-- **Fusion 360** → 3D CAD for printable model design  
-- **Python (NumPy, Matplotlib, Pandas)** → Automation & data processing  
-- **3D Printing** → FDM with PLA filament  
+***
 
----
+## 📊 Simulation Results & Empirical Insights
 
-## 📊 Results & Insights
+- Determined optimal wing configuration balancing lift, drag, and stability for cruise scenario.[1]
+- Validated simulated trends against aerodynamic theory; highlighted limitations of VSPAERO at this scale and practical discrepancies.[1]
+- Documented the technical and empirical adjustments required for high-fidelity printing and robust RC flight (including electronics integration, assembly constraints, and in-flight feedback).[1]
 
-- Achieved an optimized wing configuration for cruise efficiency.  
-- Demonstrated correlation between simulated and theoretical aerodynamic behavior.  
-- Highlighted limitations of reduced-scale models in Reynolds similarity.  
-- Built and flight-tested a functional **RC model of the PC-7 MkII**.  
+***
 
----
+## 🛠️ Getting Started
 
-## 🛠️ How to Use
+To reproduce or adapt the workflow:
 
-1. Clone the repository:  
+1. Clone and set up the repository:
    ```bash
-   git clone https://github.com/your-username/pc7-mk2-sim-opt.git
-   cd pc7-mk2-sim-opt
+   git clone https://github.com/your-username/pc7-mk2-simtoolkit.git
+   cd pc7-mk2-simtoolkit
+   ```
+2. Explore `src/` for Python automation scripts (simulations, data formatting, batch processing).[1]
+3. Use CAD files in `models/` for custom geometry or print adaptation (Fusion 360, OpenVSP).[1]
+4. Review `docs/` for methodological notes, empirical results, and references to theory and practical guides.[1]
+5. Print and assemble using detailed plans in `construction/`, integrating recommended electronic components for RC flight.[1]
+
+***
+
+## Notes on Methodology and Contribution
+The methodology follows an interdisciplinary approach—combining fluid mechanics, 3D design, programming, and hands-on manufacturing. Each step and challenge, from parametric modeling to batch simulation automation, is documented to support transparency and reproducibility.  
+All models, scripts, datasets, and build notes are released for community improvement, error correction, and further empirical exploration.[1]
+
+***
+
+For more exhaustive principles, practical details, and full technical background, see `/docs` and the referenced report ("Travail de Maturité", 2025).
+
+[1](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/112451556/db1f5290-06e4-4750-9461-9f220445eb5c/tm.pdf)
