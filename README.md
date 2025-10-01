@@ -81,4 +81,4 @@ All models, scripts, datasets, and build notes are released for community improv
 
 For more exhaustive principles, practical details, and full technical background, see `/docs` and the referenced report ("Travail de Maturité", 2025).
 
-[1](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/112451556/db1f5290-06e4-4750-9461-9f220445eb5c/tm.pdf)
+[1](/docs/tm.pdf)
