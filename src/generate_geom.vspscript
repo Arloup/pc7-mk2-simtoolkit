@@ -1,0 +1,11 @@
+// generate_geom.vspscript 
+void main()
+{
+  ReadVSPFile("test.vsp3");
+
+  // Run CompGeom to generate geometry
+  string compGeom = "VSPAEROComputeGeometry";
+  SetAnalysisInputDefaults(compGeom);
+  string compGeom_results = ExecAnalysis(compGeom);
+
+}
