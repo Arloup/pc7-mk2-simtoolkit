@@ -79,6 +79,5 @@ All models, scripts, datasets, and build notes are released for community improv
 
 ***
 
-For more exhaustive principles, practical details, and full technical background, see `/docs` and the referenced report ("Travail de Maturité", 2025).
-
-[1](/docs/tm.pdf)
+For more exhaustive principles, practical details, and full technical background, feel free to write me : arthurfresard@bluewin.ch
+By the way I won the SVSN 2026 price for this work see me here : https://wp.unil.ch/svsn/releve/prix-svsn/
