@@ -79,5 +79,6 @@ All models, scripts, datasets, and build notes are released for community improv
 
 ***
 
-For more exhaustive principles, practical details, and full technical background, feel free to write me : arthurfresard@bluewin.ch
+For more exhaustive principles, practical details, and full technical background, feel free to write me : arthurfresard@bluewin.ch or read my work under the docs session.[1]
 By the way I won the SVSN 2026 price for this work see me here : https://wp.unil.ch/svsn/releve/prix-svsn/
+[1]: docs/ "Consulter la documentation technique"
