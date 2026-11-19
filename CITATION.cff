@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use these files, please cite them as below."
+title: "pc7-mk2-simtoolkit: modelling, simulation and construction of a 1:10 Pilatus PC-7 MkII"
+abstract: >-
+  OpenVSP model, automated VSPAERO simulations (18 wing configurations),
+  simulation database, analysis notebooks, travail de maturité report and Fusion 360 / STEP CAD
+  files of a 3D-printed, radio-controlled 1:10 Pilatus PC-7 MkII.
+  Code under MIT; models, data, CAD files and report under CC BY 4.0
+  (see LICENSE-DATA.md).
+authors:
+  - family-names: "Frésard"
+    given-names: "Arthur"
+    email: "arthurfresard@bluewin.ch"
+repository-code: "https://github.com/Arloup/pc7-mk2-simtoolkit"
+license: MIT
+keywords:
+  - aerodynamics
+  - OpenVSP
+  - VSPAERO
+  - scale model
+  - 3D printing
+  - Pilatus PC-7

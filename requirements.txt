@@ -1,0 +1,11 @@
+# Analysis notebooks (src/*.ipynb) and extraction scripts
+numpy
+pandas
+matplotlib
+texttable
+latextable
+jupyter
+
+# simulations_main.py also needs the OpenVSP Python API (`openvsp` module).
+# It is not on PyPI: it ships with OpenVSP (python/ folder of the distribution)
+# and must be installed with the same Python version as the OpenVSP build.

@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Figures written by the notebooks
+src/*.png
+
+# Simulation outputs and logs
+results/
+*.log
+*.history
+
+# OS
+.DS_Store
+Thumbs.db
