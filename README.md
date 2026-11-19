@@ -12,6 +12,7 @@ Bugnon (Lausanne), Prix d'excellence SVSN 2026.*
 ![OpenVSP](https://img.shields.io/badge/OpenVSP-3.43.0-blue)
 ![License: MIT](https://img.shields.io/badge/code-MIT-green)
 ![Data: CC BY 4.0](https://img.shields.io/badge/data%20%26%20CAD-CC%20BY%204.0-lightgrey)
+[![DOI](https://zenodo.org/badge/1067991637.svg)](https://doi.org/10.5281/zenodo.24382179)
 
 ## Overview
 
@@ -143,6 +144,13 @@ python extract_database.py C:\TM_Simulations\results -o ../simulations/database.
   No gyro or flight stabiliser.
 
 ## Citation
+
+Files of this repository (archived on Zenodo):
+
+> Frésard, A. (2026). *pc7-mk2-simtoolkit: modelling, simulation and construction of a 1:10
+> Pilatus PC-7 MkII*. Zenodo. <https://doi.org/10.5281/zenodo.24382179>
+
+Article:
 
 > Frésard, A. & Kobel, P. (2026). Un avion suisse en modèle réduit : de la modélisation aux
 > essais de vol du PC-7 MkII en passant par la simulation numérique et la conception.

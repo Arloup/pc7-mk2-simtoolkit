@@ -11,6 +11,7 @@ authors:
   - family-names: "Frésard"
     given-names: "Arthur"
     email: "arthurfresard@bluewin.ch"
+doi: "10.5281/zenodo.24382179"
 repository-code: "https://github.com/Arloup/pc7-mk2-simtoolkit"
 license: MIT
 keywords:
