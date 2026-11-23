@@ -4,7 +4,7 @@ Third-party documents used during the project. They are **not redistributed in t
 repository**: each one belongs to its authors or publishers, so the list below links to
 the official source instead.
 
-The full bibliography is in the TM report (`TM_PartII.pdf`, Bibliographie).
+The full bibliography is in the TM report (`TM_Fresard_2026.pdf`, Bibliographie).
 
 ## Aerodynamics fundamentals
 

@@ -78,8 +78,7 @@ pc7-mk2-simtoolkit/
 │   ├── GetGraphs.ipynb        # outlier correction, plots and ranking (Table above)
 │   └── analyse.ipynb          # convergence exploration
 ├── docs/
-│   ├── TM_PartI.pdf           # TM report, part I (theory, method)
-│   ├── TM_PartII.pdf          # TM report, part II (results, construction, bibliography)
+│   ├── TM_Fresard_2026.pdf    # full travail de maturité report (74 pages)
 │   ├── REFERENCES.md          # third-party documents used, with links
 │   └── images/                # photo of the model
 ├── requirements.txt

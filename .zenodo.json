@@ -1,7 +1,7 @@
 {
   "title": "Un avion suisse en modèle réduit : de la modélisation aux essais de vol du PC-7 MkII en passant par la simulation numérique et la conception – données, scripts et fichiers 3D",
   "upload_type": "dataset",
-  "description": "<p><strong>FR</strong> – Données, scripts et fichiers 3D du travail de maturité « Modélisation et construction réduite du PC-7 MkII via optimisation empirique assistée par simulation numérique » (Gymnase du Bugnon, Lausanne ; Prix d'excellence de la Société vaudoise des sciences naturelles 2026), qui fait l'objet d'un article dans le <em>Bulletin de la Société Vaudoise des Sciences Naturelles</em> (Frésard &amp; Kobel, 2026, à paraître).</p>\n<p>L'archive contient : le modèle aérodynamique OpenVSP du Pilatus PC-7 MkII à l'échelle 1:10 ; les réglages VSPAERO et le script Python qui automatise les 18 simulations (six dièdres × trois épaisseurs de profil) ; la base de données des itérations du solveur ; les notebooks de correction des valeurs aberrantes et de classement des configurations ; le rapport du travail de maturité (2 PDF) ; les fichiers 3D de l'avion imprimé et testé en vol (Fusion 360 et STEP).</p>\n<p><strong>EN</strong> – Data, scripts and 3D files of a Swiss high-school final-year project (travail de maturité) on a 1:10 scale model of the Pilatus PC-7 MkII: OpenVSP model, VSPAERO settings and Python automation of 18 wing configurations, simulation database, analysis notebooks, project report, and the Fusion 360 / STEP files of the 3D-printed model that was flight-tested.</p>\n<p>Licences: code (<code>src/</code>) under MIT; models, data, CAD files and report under CC BY 4.0 (see <code>LICENSE-DATA.md</code>).</p>",
+  "description": "<p><strong>FR</strong> – Données, scripts et fichiers 3D du travail de maturité « Modélisation et construction réduite du PC-7 MkII via optimisation empirique assistée par simulation numérique » (Gymnase du Bugnon, Lausanne ; Prix d'excellence de la Société vaudoise des sciences naturelles 2026), qui fait l'objet d'un article dans le <em>Bulletin de la Société Vaudoise des Sciences Naturelles</em> (Frésard &amp; Kobel, 2026, à paraître).</p>\n<p>L'archive contient : le modèle aérodynamique OpenVSP du Pilatus PC-7 MkII à l'échelle 1:10 ; les réglages VSPAERO et le script Python qui automatise les 18 simulations (six dièdres × trois épaisseurs de profil) ; la base de données des itérations du solveur ; les notebooks de correction des valeurs aberrantes et de classement des configurations ; le rapport complet du travail de maturité (PDF) ; les fichiers 3D de l'avion imprimé et testé en vol (Fusion 360 et STEP).</p>\n<p><strong>EN</strong> – Data, scripts and 3D files of a Swiss high-school final-year project (travail de maturité) on a 1:10 scale model of the Pilatus PC-7 MkII: OpenVSP model, VSPAERO settings and Python automation of 18 wing configurations, simulation database, analysis notebooks, project report, and the Fusion 360 / STEP files of the 3D-printed model that was flight-tested.</p>\n<p>Licences: code (<code>src/</code>) under MIT; models, data, CAD files and report under CC BY 4.0 (see <code>LICENSE-DATA.md</code>).</p>",
   "creators": [
     {
       "name": "Frésard, Arthur",
@@ -32,12 +32,7 @@
   "language": "fra",
   "related_identifiers": [
     {
-      "identifier": "https://github.com/Arloup/pc7-mk2-simtoolkit/blob/main/docs/TM_PartI.pdf",
-      "relation": "isDocumentedBy",
-      "resource_type": "publication-report"
-    },
-    {
-      "identifier": "https://github.com/Arloup/pc7-mk2-simtoolkit/blob/main/docs/TM_PartII.pdf",
+      "identifier": "https://github.com/Arloup/pc7-mk2-simtoolkit/blob/main/docs/TM_Fresard_2026.pdf",
       "relation": "isDocumentedBy",
       "resource_type": "publication-report"
     }
