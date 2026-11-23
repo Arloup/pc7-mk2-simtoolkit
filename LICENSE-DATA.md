@@ -7,7 +7,7 @@ The following works by Arthur Frésard are released under the
 
 - the OpenVSP model `models/PC7-MkII.vsp3`;
 - the simulation database `simulations/database.json`;
-- the CAD files published in the GitHub Releases (Fusion 360 and STEP);
+- the CAD files in `cad/` (Fusion 360 and STEP);
 - the travail de maturité report `docs/TM_PartI.pdf` and `docs/TM_PartII.pdf`;
 - the photo `docs/images/pc7-mk2-model.jpg`.
 

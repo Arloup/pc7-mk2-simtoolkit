@@ -1,0 +1,69 @@
+{
+  "title": "Un avion suisse en modèle réduit : de la modélisation aux essais de vol du PC-7 MkII en passant par la simulation numérique et la conception – données, scripts et fichiers 3D",
+  "upload_type": "dataset",
+  "description": "<p><strong>FR</strong> – Données, scripts et fichiers 3D du travail de maturité « Modélisation et construction réduite du PC-7 MkII via optimisation empirique assistée par simulation numérique » (Gymnase du Bugnon, Lausanne ; Prix d'excellence de la Société vaudoise des sciences naturelles 2026), qui fait l'objet d'un article dans le <em>Bulletin de la Société Vaudoise des Sciences Naturelles</em> (Frésard &amp; Kobel, 2026, à paraître).</p>\n<p>L'archive contient : le modèle aérodynamique OpenVSP du Pilatus PC-7 MkII à l'échelle 1:10 ; les réglages VSPAERO et le script Python qui automatise les 18 simulations (six dièdres × trois épaisseurs de profil) ; la base de données des itérations du solveur ; les notebooks de correction des valeurs aberrantes et de classement des configurations ; le rapport du travail de maturité (2 PDF) ; les fichiers 3D de l'avion imprimé et testé en vol (Fusion 360 et STEP).</p>\n<p><strong>EN</strong> – Data, scripts and 3D files of a Swiss high-school final-year project (travail de maturité) on a 1:10 scale model of the Pilatus PC-7 MkII: OpenVSP model, VSPAERO settings and Python automation of 18 wing configurations, simulation database, analysis notebooks, project report, and the Fusion 360 / STEP files of the 3D-printed model that was flight-tested.</p>\n<p>Licences: code (<code>src/</code>) under MIT; models, data, CAD files and report under CC BY 4.0 (see <code>LICENSE-DATA.md</code>).</p>",
+  "creators": [
+    {
+      "name": "Frésard, Arthur",
+      "affiliation": "Gymnase du Bugnon, Lausanne"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Kobel, Philippe",
+      "affiliation": "Gymnase du Bugnon, Lausanne",
+      "type": "Supervisor"
+    }
+  ],
+  "keywords": [
+    "aérodynamique",
+    "aerodynamics",
+    "OpenVSP",
+    "VSPAERO",
+    "nombre de Reynolds",
+    "modèle réduit",
+    "scale model",
+    "impression 3D",
+    "3D printing",
+    "Pilatus PC-7 MkII",
+    "travail de maturité"
+  ],
+  "license": "cc-by-4.0",
+  "language": "fra",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Arloup/pc7-mk2-simtoolkit/blob/main/docs/TM_PartI.pdf",
+      "relation": "isDocumentedBy",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://github.com/Arloup/pc7-mk2-simtoolkit/blob/main/docs/TM_PartII.pdf",
+      "relation": "isDocumentedBy",
+      "resource_type": "publication-report"
+    }
+  ],
+  "references": [
+    "Airfoiltools, 2025. Airfoil Tools. http://airfoiltools.com/ (consulté le 13.07.2025).",
+    "Anderson J.D. Jr., 2001. Fundamentals of Aerodynamics. 3e éd. McGraw-Hill, New York. 892 p.",
+    "Autodesk, 2025. Fusion 360. https://www.autodesk.com/ch-fr/products/fusion-360/overview (consulté le 14.05.2025).",
+    "CRM (Commissions romandes de mathématique, de physique et de chimie), 2012. Formulaires et tables : mathématiques, physique, chimie. Éditions G d’Encre, Le Locle. 278 p.",
+    "Forces aériennes suisses, 2026. PC-7 TEAM 2026. Forces aériennes suisses, Berne, 56p. https://pc7-team.ch/wp-content/uploads/2026/04/84_004_PC7_TEAM_Broschuere_2026.pdf (consulté le 15.11.2026).",
+    "Giovannini A. & Airiau C., 2016. Aérodynamique fondamentale. Cépaduès, Toulouse. 578 p.",
+    "Leishman J.G., 2022. Introduction to Aerospace Flight Vehicles. Embry-Riddle Aeronautical University, Daytona Beach. Chapitre « Dynamic similarity ». https://eaglepubs.erau.edu/introductiontoaerospaceflightvehicles/chapter/dynamic-similarity/ (consulté le 20.01.2026).",
+    "Lissaman P.B.S., 1983. Low-Reynolds-number airfoils. Annual Review of Fluid Mechanics 15: 223–239.",
+    "Loftin L.K. Jr. & Cohen K.S., 1948. Aerodynamic characteristics of a number of modified NACA four-digit-series airfoil sections. NACA Technical Note 1591. National Advisory Committee for Aeronautics, Washington. 40 p.",
+    "Mariën F., 2021. Software testing: VSPAERO. Travail de master, Hamburg University of Applied Sciences, Aircraft Design and Systems Group (AERO), Hambourg. https://doi.org/10.15488/11559",
+    "NASA, 2025. OpenVSP Ground School. https://vspu.larc.nasa.gov/ (consulté le 14.05.2025).",
+    "OpenVSP, 2025a. OpenVSP. https://openvsp.org/ (consulté le 14.05.2025).",
+    "OpenVSP, 2025b. OpenVSP API documentation. https://openvsp.org/api_docs/latest/ (consulté le 14.05.2025).",
+    "OpenVSP, 2025c. OpenVSP Google Group. https://groups.google.com/g/openvsp (consulté le 14.05.2025).",
+    "Pichon G., 2011. Pilatus PC-7 Turbo Trainer. Avions Légendaires. https://www.avionslegendaires.net/avion-militaire/pilatus-pc-7-turbo-trainer (consulté le 14.08.2025).",
+    "Pilatus Aircraft Ltd, 1994. PC-7 MkII, Model Building Plan, scale 1:25. http://ipms.ch/userdata/filemanager/data/Profile/Pilatus-Aircraft-Ltd-PC-7-MkII-Model-Plan.pdf (consulté le 13.04.2025).",
+    "Pilatus Aircraft Ltd, 2022. PC-7 MKX – The latest trainer from Pilatus. https://www.pilatus-aircraft.com/en/news/pc-7-mkx (consulté le 22.09.2026).",
+    "Pilatus Aircraft Ltd, s.d. PC-7 MKX – Technical specs. https://pilatus-aircraft.com/fly/pc-7 (consulté le 16.11.2026).",
+    "Schneider C.A., Rasband W.S. & Eliceiri K.W., 2012. NIH Image to ImageJ: 25 years of image analysis. Nature Methods 9(7): 671–675. https://imagej.net/ij/ (consulté le 14.08.2025).",
+    "Sheridan C.N., Pham D.D. & Whiteside S., 2021. Evaluation of VSPAERO analysis capabilities for conceptual design of aircraft with propeller-blown wings. AIAA AVIATION 2021 Forum, AIAA 2021-2510. https://doi.org/10.2514/6.2021-2510",
+    "UIUC Applied Aerodynamics Group, 2025. UIUC Airfoil Data Site. https://m-selig.ae.illinois.edu/ads.html (consulté le 13.07.2025).",
+    "U.S. Centennial of Flight Commission, s.d. Sir George Cayley. Dictionary of Flight. https://centennialofflight.net/essay/Dictionary/Cayley/DI15.htm (consulté le 15.11.2026)."
+  ]
+}

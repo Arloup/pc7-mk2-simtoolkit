@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use these files, please cite them as below."
-title: "pc7-mk2-simtoolkit: modelling, simulation and construction of a 1:10 Pilatus PC-7 MkII"
+title: "Un avion suisse en modèle réduit : de la modélisation aux essais de vol du PC-7 MkII en passant par la simulation numérique et la conception – données, scripts et fichiers 3D"
 abstract: >-
   OpenVSP model, automated VSPAERO simulations (18 wing configurations),
   simulation database, analysis notebooks, travail de maturité report and Fusion 360 / STEP CAD

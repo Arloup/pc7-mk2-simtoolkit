@@ -63,6 +63,9 @@ own for about 5 seconds. See the TM report and the article for the full discussi
 
 ```text
 pc7-mk2-simtoolkit/
+├── cad/
+│   ├── PC7-MkII.f3d           # Fusion 360 design of the printable aircraft
+│   └── PC7-MkII-STEP.zip      # STEP export of the whole aircraft
 ├── models/
 │   └── PC7-MkII.vsp3          # OpenVSP aerodynamic model (base for the 18 variants)
 ├── simulations/
@@ -80,16 +83,16 @@ pc7-mk2-simtoolkit/
 │   ├── REFERENCES.md          # third-party documents used, with links
 │   └── images/                # photo of the model
 ├── requirements.txt
-├── CITATION.cff               # citation metadata (GitHub, Zenodo)
+├── CITATION.cff               # citation metadata (GitHub)
+├── .zenodo.json               # archive metadata (Zenodo)
 ├── LICENSE                    # MIT (code)
 └── LICENSE-DATA.md            # CC BY 4.0 (models, data, CAD, TM report)
 ```
 
 ## CAD files (Fusion 360 / STEP)
 
-The printable aircraft is too large for the repository itself, so it is published as
-**release assets**:
-[**Latest release (CAD files)**](https://github.com/Arloup/pc7-mk2-simtoolkit/releases/latest)
+The printable aircraft is in the [`cad/`](cad) folder (also attached to the
+[latest release](https://github.com/Arloup/pc7-mk2-simtoolkit/releases/latest)):
 
 | File | Content |
 |---|---|
@@ -147,8 +150,9 @@ python extract_database.py C:\TM_Simulations\results -o ../simulations/database.
 
 Files of this repository (archived on Zenodo):
 
-> Frésard, A. (2026). *pc7-mk2-simtoolkit: modelling, simulation and construction of a 1:10
-> Pilatus PC-7 MkII*. Zenodo. <https://doi.org/10.5281/zenodo.24382179>
+> Frésard, A. (2026). *Un avion suisse en modèle réduit : de la modélisation aux essais de vol
+> du PC-7 MkII en passant par la simulation numérique et la conception – données, scripts et
+> fichiers 3D*. Zenodo. <https://doi.org/10.5281/zenodo.24382179>
 
 Article:
 
